@@ -5,7 +5,14 @@ const DEFAULT_SIZE = 4;
 let currentSize = DEFAULT_SIZE;
 
 // set Doccument variables
-const grid = document.getElementById('grid') 
+const grid = document.getElementById('grid')
+const btn = document.getElementById('btn')
+const valueSlider = document.getElementById('slider')
+
+btn.onclick = () => {
+    const value = valueSlider.value
+    createGrid(value)
+}
 
 
 const createGrid = (size) => {

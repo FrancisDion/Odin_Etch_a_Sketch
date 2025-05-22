@@ -26,6 +26,15 @@ body {
     color: var(--primary-dark);
 }
 
+.btn {
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.slider {
+
+}
+
 /* Main */
 
 .main {
